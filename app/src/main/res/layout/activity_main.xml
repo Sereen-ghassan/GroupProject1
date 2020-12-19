@@ -5,13 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <androidx.recyclerview.widget.RecyclerView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/car_recycler"
-        android:scrollbars="vertical"/>
+        android:scrollbars="vertical"
+        android:layout_gravity="center_horizontal"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
