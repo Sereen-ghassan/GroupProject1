@@ -7,17 +7,22 @@
 <!--        <item name="colorAccent">@color/colorAccent</item>-->
     </style>
     <style name="mystyle">
-        <item name="android:textSize">15pt</item>
+        <item name="android:textSize">13pt</item>
         <item name="android:layout_marginBottom">8dp</item>
-        <item name="android:fontFamily">Dancing</item>
-        <item name="android:textColor">@color/teal_700</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:color">@color/grey</item>
+
     </style>
     <style name="mystyle2">
-        <item name="android:textSize">15pt</item>
+        <item name="android:textSize">8pt</item>
         <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="mystyle3">
+        <item name="android:textSize">8pt</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textStyle">italic</item>
     </style>
 
-<!--    <color name="colorPrimary">colorPrimary</color>-->
-<!--    <color name="colorPrimaryDark">colorPrimaryDark</color>-->
-<!--    <color name="colorAccent">colorAccent</color>-->
 </resources>
